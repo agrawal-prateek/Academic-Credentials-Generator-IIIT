@@ -1,0 +1,8 @@
+{
+  "name": "Degree-Generator-IIITM",
+  "version": "0.0.1",
+  "dependencies": {
+    "php":"7.x.x",
+    "php-zip":""
+  }
+}
