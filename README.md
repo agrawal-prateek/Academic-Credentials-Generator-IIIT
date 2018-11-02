@@ -55,8 +55,8 @@ On the homepage, there is a **Settings Button**. All degrees are dynamic, so the
 Click on the settings button and a popup will appear. Change your settings accordingly. There is no need to save of submit form after changing settings because these are saved automatically to server at realtime.
 
 
-**Settings to add new program**
--
+### Settings to add new program
+
 
 - Change in public/scripts/script.js(degree1,degree2,...) , In Following functions $.getJSON(), $.ajax()
 - Change in get_data.php (Add if-else conditions and in array named with $courses)
@@ -71,8 +71,9 @@ Click on the settings button and a popup will appear. Change your settings accor
   - In foreach() loop, add new elseif conditions ($found == 0)
   - In foreach() loop, add new elseif conditions ($degree == 'degreename')
 
-**Make Custom Fonts**
--
+
+### Make Custom Fonts
+
 
 If you want to make Custom fonts do the following:
 
