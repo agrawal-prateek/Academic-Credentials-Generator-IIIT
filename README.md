@@ -82,7 +82,7 @@ If you want to make Custom fonts do the following:
 
 - Type following code in a Php file and run that
 
-
+```php
     <?php
         pathToProject = 'give_path_to_project'; //give project path
         pathToFontFile = 'give_path_to_font_file';  //give font file location
@@ -90,6 +90,7 @@ If you want to make Custom fonts do the following:
         MakeFont(pathToFontFile);
     ?>
 
+```
 
 - Run the above Php file on Browser
 - After running, Two files **fontname.php** and **fontname.z** will be created
