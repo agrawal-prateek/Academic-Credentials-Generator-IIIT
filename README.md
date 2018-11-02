@@ -76,24 +76,29 @@ Click on the settings button and a popup will appear. Change your settings accor
 
 If you want to make Custom fonts do the following:
 
+
 - Type following code in a Php file and run that
 
+
     <?php
-    pathToProject = 'give_path_to_project'; //give project path
-    pathToFontFile = 'give_path_to_font_file';  //give font file location
-    require(pathToProject.'/public/fpdf/makefont/makefont.php');
-    MakeFont(pathToFontFile);
+        pathToProject = 'give_path_to_project'; //give project path
+        pathToFontFile = 'give_path_to_font_file';  //give font file location
+        require(pathToProject.'/public/fpdf/makefont/makefont.php');
+        MakeFont(pathToFontFile);
     ?>
+
 
 - Run the above Php file on Browser
 - After running, Two files **fontname.php** and **fontname.z** will be created
 - Copy these two files in **public/fpdf/font**
 - You are now done
 
-### For more info feel free and contact me.
 
-Prateek Agrawal
+##### For more info feel free and contact me.
+
+#### Prateek Agrawal
 
 prateekagrawal89760@gmail.com
 
 (+91) 7464847884
+
