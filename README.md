@@ -51,8 +51,10 @@ Alternatively php-zip can be download from [here](https://pecl.php.net/package/z
 **Settings**
 -
 
-On the homepage, there is a **Settings Button**. All degrees are dynamic, so the settings like **paddings between lines**, **Chairman**, **Place**, **Date of Distribution** etc can be changed.
-Click on the settings button and a popup will appear. Change your settings accordingly. There is no need to save of submit form after changing settings because these are saved automatically to server at realtime.
+- On the homepage, there is a **Settings Button**. All degrees are dynamic, so the settings like **paddings between lines**, **Chairman**, **Place**, **Date of Distribution** etc can be changed.
+
+
+- Click on the settings button and a popup will appear. Change your settings accordingly. There is no need to save of submit form after changing settings because these are saved automatically to server at realtime.
 
 
 ### Settings to add new program
@@ -62,14 +64,14 @@ Click on the settings button and a popup will appear. Change your settings accor
 - Change in get_data.php (Add if-else conditions and in array named with $courses)
 - Add data in settings.json (degree1,degree2,...)
 - Change In upload.php (Add elseif condition)
-- Change In uploadform.php (In html<select> tag which has id="upload-degree", add new <option> for new degree)
-- Create more degrees files (degree_name.php) in the "degrees" folder
-- Change in generate_degree.php and do the following:
-  - import new files (require() function in the starting of file)(see line no 1,2)
-  - Add new degrees name in $data variable represented as array in file.
-  - Load new files data (in variables $jsonString, $jsondata, $data['newdegreename'])
-  - In foreach() loop, add new elseif conditions ($found == 0)
-  - In foreach() loop, add new elseif conditions ($degree == 'degreename')
+- Change In uploadform.php (In html `<select>` tag which has `id="upload-degree"`, add new `<option>` for new degree)
+- Create more degrees files (degree_name.php) in the `degrees` folder
+- Change in `generate_degree.php` and do the following:
+  - import new files (`require()` function in the starting of file)(see line no 1,2)
+  - Add new degrees name in `$data` variable represented as array in file.
+  - Load new files data (in variables `$jsonString`, `$jsondata`, `$data['newdegreename']`)
+  - In `foreach()` loop, add new elseif conditions `$found == 0`
+  - In `foreach()` loop, add new elseif conditions `$degree == 'degreename'`
 
 
 ### Make Custom Fonts
@@ -103,3 +105,4 @@ prateekagrawal89760@gmail.com
 
 (+91) 7464847884
 
+#### Thanks for Reading
